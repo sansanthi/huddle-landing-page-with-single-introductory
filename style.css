@@ -66,6 +66,7 @@ h1 {
     border: none;
     box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.1);
     margin-bottom: 6rem;
+    transition: .3s ease;
 }
 .btn:hover {
     color: hsl(0, 0%, 100%);
@@ -88,7 +89,7 @@ h1 {
     padding: 1.35rem;
     background: transparent;
     border: 1px solid #fff;
-    
+    text-decoration: none;
 }
 
 .icon {    
@@ -130,14 +131,14 @@ h1 {
     }
     .description-section {
         display: flex;
-        gap: 4rem;
+        gap: 2rem;
         margin-bottom: 10rem;
     }
     .logo {
         height: 4.4rem;
     }
     .show-img {
-        width: 48rem;
+        max-width: 48rem;
         margin: 0;
     }
     .description-box {
@@ -167,6 +168,7 @@ h1 {
         padding: 6rem 6rem 4rem 6rem;
     }
     .description-section {
+        gap: 4rem;
         margin-bottom: 4rem;
     }
     .header-logo {
@@ -176,10 +178,10 @@ h1 {
         height: 5.4rem;
     }
     .show-img {
-        width: 100%;
+        max-width: 100%;
     }
     h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .btn {
